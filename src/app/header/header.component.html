@@ -1,0 +1,15 @@
+<header>
+  <img class="logo" src="assets/cookbooklogo.png" alt="logo">
+  <div></div> <!-- empty div for the sake of flexbox -->
+  <nav>
+    <ul class="nav__links">
+      <li><a href="#" (click)="onSelect('recipe')">Recipes</a></li>
+      <li><a href="#" (click)="onSelect('shopping-list')">Shopping List</a></li>
+    </ul>
+  </nav>
+  <a class="cta dropdown-toggle" href="#"><button>Manage <span class="caret"></span></button></a>
+  <ul class="dropdown-menu">
+    <li><a href="#">Save Data</a></li>
+    <li><a href="#">Fetch Data</a></li>
+  </ul>
+</header>
